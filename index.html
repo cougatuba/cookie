@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cougar Clicker</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body onload="checkCookie()">
+<div id="topBar">
+  <form>
+    <p onclick="save()" class="menuText">Save</p>
+    <p onclick="erase()" class="menuText">Erase Save</p>
+  </form>
+</div>
+<div id="leftBar">
+  <form>
+    <input type="text" id="info" readonly/>
+  </form>
+</div>
+<div id="midBar">
+  <p id="number"></p>
+  <form>
+    <p id="fans">Cougar Fans</p>
+    <a href="Javascript:increment(1)"><img id="cougar" src="cougar.png" alt="Click ME!"></a>  
+  </form>
+    <p id="click">Click the Cougar!</p>
+</div>
+<div id="rightBar">
+  <a href="Javascript:addOneRoc()">
+  <div id="rocButton">
+    <img id="rocImg" src="rocpass.jpg" alt="roc pass">
+    <div id="buttonContain">
+      <div id="rocTitle">Roc Pass</div>
+      <div id="rocCost"></div>
+    </div>
+    <div id="rocCount"></div>
+  </div>
+  </a>
+
+<a href="Javascript:addOneTail()">
+  <div id="tailButton">
+    <img id="tailImg" src="tail.png" alt="tailgate party">
+    <div id="buttonContain">
+      <div id="tailTitle">Cougar Club</div>
+      <div id="tailCost"></div>
+    </div>
+    <div id="tailCount"></div>
+  </div>
+  </a>
+  
+<a href="Javascript:addOneSeason()">
+  <div id="seasonButton">
+    <img id="seasonImg" src="season.jpg" alt="season tickets">
+    <div id="buttonContain">
+      <div id="seasonTitle">Season Tickets</div>
+      <div id="seasonCost"></div>
+    </div>
+    <div id="seasonCount"></div>
+  </div>
+  </a>
+  
+<a href="Javascript:addOneTv()">
+  <div id="tvButton">
+    <img id="tvImg" src="tv.jpg" alt="tv deal">
+    <div id="buttonContain">
+      <div id="tvTitle">BYU TV</div>
+      <div id="tvCost"></div>
+    </div>
+    <div id="tvCount"></div>
+  </div>
+  </a>
+  
+<a href="Javascript:addOneEspn()">
+  <div id="espnButton">
+    <img id="espnImg" src="espn.jpg" alt="espn deal">
+    <div id="buttonContain">
+      <div id="espnTitle">ESPN Deal</div>
+      <div id="espnCost"></div>
+    </div>
+    <div id="espnCount"></div>
+  </div>
+  </a>
+  
+</div>
+
+</body>
+</html>

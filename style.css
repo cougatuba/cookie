@@ -1,0 +1,298 @@
+  body{
+    background-color:#C5AF7D;
+	font-family: "Verdana", Geneva, sans-serif;
+	color:#001E4C;
+  }
+
+  #topBar{
+    width:100%;
+    height:10%;
+    border-bottom:1px solid black;
+    position:relative;
+  }
+
+  .menuText{
+    display:inline;
+    margin:5px;
+  }
+
+  .menuText:hover{
+    color:red;
+  }
+
+  #leftBar{
+    width:15%;
+    position:relative;
+    float:left;
+  }
+
+  #midBar{
+    width:50%;
+    position:relative;
+    float:left;
+  } 
+
+  #rightBar{
+    width:25%;
+    position:relative;
+    float:left;
+    padding:5px;
+  }
+
+  #number{
+    font-size:1.5em;
+    text-align:center;
+    border:none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #fans{
+    font-size:1.5em;
+    text-align:center;
+    margin:0px;
+  }
+ 
+  #click{
+    display:show;
+    text-align:center;
+  }
+
+  #cougar{
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #cougar:active{
+    height:190px;
+  }
+
+
+  #buttonContain{
+    display:relative;
+    float:left;
+    width:50%;
+  }
+  
+  #rocButton{
+    width:400px;
+    height:100px;
+    border:black solid 3px;
+    background-color:#453E2C;
+    color:white;
+   }
+
+  #rocButton:active{
+    background-color:#AB986D;
+  }
+
+
+  #rocImg{
+    display:relative;
+    float:left;
+    width:24%;
+	apacity: 0.4;
+  }
+ 
+  #rocCount{
+    display:relative;
+    float:left;
+    width:24%;
+    font-size:5em;
+    text-align:right;
+  }
+
+  #rocTitle{
+    display:relative;
+    float:left;
+    width:100%;
+    height:50px;
+    font-size:1.5em;
+  }
+ 
+  #rocCost{
+    display:relative;
+    float:left;
+    height:49px;
+    width:100%;
+  }
+
+  #tailButton{
+    width:400px;
+    height:100px;
+    border:black solid 3px;
+    background-color:#453E2C;
+    color:white;
+   }
+
+  #tailButton:active{
+    background-color:#AB986D;
+  }
+
+
+  #tailImg{
+    display:relative;
+    float:left;
+    width:24%;
+	apacity: 0.4;
+  }
+
+  #tailCount{
+    display:relative;
+    float:left;
+    width:24%;
+    font-size:5em;
+    text-align:right;
+  }
+
+  #tailTitle{
+    display:relative;
+    float:left;
+    width:100%;
+    height:50px;
+    font-size:1.5em;
+  }
+
+  #tailCost{
+    display:relative;
+    float:left;
+    height:49px;
+    width:100%;
+  }
+
+#seasonButton{
+    width:400px;
+    height:100px;
+    border:black solid 3px;
+    background-color:#453E2C;
+    color:white;
+   }
+
+  #seasonButton:active{
+    background-color:#AB986D;
+  }
+
+
+  #seasonImg{
+    display:relative;
+    float:left;
+    width:24%;
+	apacity: 0.4;
+  }
+ 
+  #seasonCount{
+    display:relative;
+    float:left;
+    width:24%;
+    font-size:5em;
+    text-align:right;
+  }
+
+  #seasonTitle{
+    display:relative;
+    float:left;
+    width:100%;
+    height:50px;
+    font-size:1.5em;
+  }
+ 
+  #seasonCost{
+    display:relative;
+    float:left;
+    height:49px;
+    width:100%;
+  }
+  
+  #tvButton{
+    width:400px;
+    height:100px;
+    border:black solid 3px;
+    background-color:#453E2C;
+    color:white;
+   }
+
+  #tvButton:active{
+    background-color:#AB986D;
+  }
+
+
+  #tvImg{
+    display:relative;
+    float:left;
+    width:24%;
+	apacity: 0.4;
+  }
+ 
+  #tvCount{
+    display:relative;
+    float:left;
+    width:24%;
+    font-size:5em;
+    text-align:right;
+  }
+
+  #tvTitle{
+    display:relative;
+    float:left;
+    width:100%;
+    height:50px;
+    font-size:1.5em;
+  }
+ 
+  #tvCost{
+    display:relative;
+    float:left;
+    height:49px;
+    width:100%;
+  }  
+  
+  #espnButton{
+    width:400px;
+    height:100px;
+    border:black solid 3px;
+    background-color:#453E2C;
+    color:white;
+   }
+
+  #espnButton:active{
+    background-color:#AB986D;
+  }
+
+
+  #espnImg{
+    display:relative;
+    float:left;
+    width:24%;
+	apacity: 0.4;
+  }
+ 
+  #espnCount{
+    display:relative;
+    float:left;
+    width:24%;
+    font-size:5em;
+    text-align:right;
+  }
+
+  #espnTitle{
+    display:relative;
+    float:left;
+    width:100%;
+    height:50px;
+    font-size:1.5em;
+  }
+ 
+  #espnCost{
+    display:relative;
+    float:left;
+    height:49px;
+    width:100%;
+  }
+  
+  a{
+    text-decoration:none;
+    color:inherit;
+  }
+ 
